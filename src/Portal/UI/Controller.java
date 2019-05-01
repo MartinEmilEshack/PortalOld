@@ -1,4 +1,4 @@
-package sample;
+package Portal.UI;
 
 public class Controller {
 

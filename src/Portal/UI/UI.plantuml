@@ -1,14 +1,14 @@
 @startuml
 
-title __SAMPLE's Class Diagram__\n
+title __UI's Class Diagram__\n
 
-  package sample {
+  package Portal.UI {
     class Controller {
     }
   }
   
 
-  package sample {
+  package Portal.UI {
     class Main {
         + start()
         {static} + main()
