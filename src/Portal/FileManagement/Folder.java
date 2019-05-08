@@ -1,7 +1,11 @@
 package Portal.FileManagement;
 
-public class Folder {
+import java.io.File;
 
+public class Folder extends File {
 
+    Folder(String path){
+        super(path);
+    }
 
 }
