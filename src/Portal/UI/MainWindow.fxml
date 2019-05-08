@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<!--f5f5f5-->
+
+<Scene fill="#f5f5f500" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="568.0" prefWidth="746.0" style="-fx-background-color: #1e2739;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <AnchorPane prefHeight="26.0" prefWidth="746.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <SplitPane dividerPositions="0.16801075268817203" prefHeight="28.0" prefWidth="746.0" style="-fx-background-color: #171e2b;" stylesheets="@MySplitPane.css" BorderPane.alignment="CENTER">
+         <items>
+            <Label text="URL:" textFill="WHITE">
+               <padding>
+                  <Insets bottom="2.0" left="6.0" right="6.0" top="2.0" />
+               </padding>
+            </Label>
+            <TextField prefHeight="25.0" prefWidth="503.0" style="-fx-background-color: #ffffff;" />
+         </items>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+            <padding>
+               <Insets bottom="3.0" right="3.0" top="3.0" />
+            </padding>
+      </SplitPane>
+   </top>
+   <center>
+      <SplitPane dividerPositions="0.21908602150537634" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1e2739;" stylesheets="@MySplitPane.css" BorderPane.alignment="CENTER">
+         <items>
+            <VBox prefHeight="512.0" prefWidth="318.0" style="-fx-background-color: #171e2b;">
+               <children>
+                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="70.0" prefWidth="174.0" text="Computer 1" wrapText="true">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+                     <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="70.0" prefWidth="174.0" text="Computer 2" wrapText="true">
+                        <graphic>
+                           <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+                        </graphic>
+                     </Button>
+                     <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="70.0" prefWidth="174.0" text="Computer 3" wrapText="true">
+                        <graphic>
+                           <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+                        </graphic>
+                     </Button>
+               </children>
+            </VBox>
+            <GridPane gridLinesVisible="true" style="-fx-background-color: #1e2739;">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </items>
+      </SplitPane>
+   </center>
+</BorderPane>
+</Scene>
