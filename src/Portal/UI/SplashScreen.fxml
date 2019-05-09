@@ -8,35 +8,36 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<Scene fill="#f5f5f500"
+<Scene xmlns:fx="http://javafx.com/fxml/1"
+       fill="#f5f5f500"
        xmlns="http://javafx.com/javafx/11.0.1"
-       xmlns:fx="http://javafx.com/fxml/1">
+       fx:controller="Portal.UI.Controller">
     <AnchorPane prefHeight="241.0" prefWidth="450.0" style="-fx-background-color: #1e2739;">
-      <children>
-         <Label layoutX="131.0" layoutY="47.0" text="Portal">
-            <font>
-               <Font size="73.0" />
-            </font>
-            <textFill>
-               <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
-                  <stops>
-                     <Stop color="#1c0e94" />
-                     <Stop color="BLACK" offset="1.0" />
-                  </stops>
-               </LinearGradient>
-            </textFill>
-         </Label>
-         <Label layoutX="115.0" layoutY="163.0" text="Your online File Explorer and much more..">
-            <textFill>
-               <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-                  <stops>
-                     <Stop color="WHITE" />
-                     <Stop color="#838282" offset="0.007662835249042145" />
-                     <Stop color="#656464" offset="1.0" />
-                  </stops>
-               </RadialGradient>
-            </textFill>
-         </Label>
-      </children>
+        <children>
+            <Label layoutX="131.0" layoutY="47.0" text="Portal">
+                <font>
+                    <Font size="73.0"/>
+                </font>
+                <textFill>
+                    <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0">
+                        <stops>
+                            <Stop color="#1c0e94"/>
+                            <Stop color="BLACK" offset="1.0"/>
+                        </stops>
+                    </LinearGradient>
+                </textFill>
+            </Label>
+            <Label layoutX="115.0" layoutY="163.0" text="Your online File Explorer and much more..">
+                <textFill>
+                    <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                        <stops>
+                            <Stop color="WHITE"/>
+                            <Stop color="#838282" offset="0.007662835249042145"/>
+                            <Stop color="#656464" offset="1.0"/>
+                        </stops>
+                    </RadialGradient>
+                </textFill>
+            </Label>
+        </children>
     </AnchorPane>
 </Scene>
