@@ -2,14 +2,38 @@
 
 title __PORTAL's Class Diagram__\n
 
-  package Portal.UI {
-    class Controller {
+  package Portal.FileManagement {
+    class Explorer {
+    }
+  }
+  
+
+  package Portal.FileManagement {
+    class File {
     }
   }
   
 
   package Portal.UI {
     class Main {
+    }
+  }
+  
+
+  package Portal.UI {
+    class MainWindowController {
+    }
+  }
+  
+
+  package Portal.Network {
+    class Portal {
+    }
+  }
+  
+
+  package Portal.UI {
+    class SplashController {
     }
   }
   
