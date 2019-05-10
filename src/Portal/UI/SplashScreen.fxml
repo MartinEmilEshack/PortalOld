@@ -11,7 +11,7 @@
 <Scene xmlns:fx="http://javafx.com/fxml/1"
        fill="#f5f5f500"
        xmlns="http://javafx.com/javafx/11.0.1"
-       fx:controller="Portal.UI.Controller">
+       fx:controller="Portal.UI.SplashController">
     <AnchorPane prefHeight="241.0" prefWidth="450.0" style="-fx-background-color: #1e2739;">
         <children>
             <Label layoutX="131.0" layoutY="47.0" text="Portal">
